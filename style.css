@@ -129,3 +129,15 @@ a:hover {
     user-select: none;
     vertical-align: middle;
 }
+
+.simages {
+    color: #4487f6;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    left: 215px;
+    bottom: 0;
+    white-space: nowrap;
+    margin-top: 700px;
+    margin-bottom: 600px;
+    margin-left: 820px;
+}
