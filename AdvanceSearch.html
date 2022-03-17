@@ -12,6 +12,7 @@
 
 <body>
     <form action="https://google.com/search">
+
         <div class="nav">
             <a href="index.html"><img src="images/google-logo-png-hd-11.png" alt="google" class="logo"></a>
             <div class="elm">
@@ -21,36 +22,60 @@
             </div>
         </div>
 
-        <div class="container">
-            <div class="Scontainer">
-                <div></div>
-                <div class="cd"><input type="text" name="q" class="txtsearch"></div>
-                <div></div>
-            </div>
-        </div>
-        <table align="center">
+        <table class="AStable">
             <thead>
-                <th>
-                    <div class="container">
-                        <div>
-                            <div>
-                                <input hidden type="text" name="tbm" value="isch">
-                                <input type="submit" value="Google Search" class="btnsearch"></div>
-                        </div>
-                    </div>
-                </th>
-    </form>
+                <tr>
+                    <th>
+                        <label for="atw">all these words:</label>
+                    </th>
+                    <th>
+                        <input type="text" name="as_q" class="AStxt" id="atw">
+                    </th>
+                </tr>
 
-    <th>
-        <div class="container">
-            <form action="https://www.google.com/doodles">
-                <input hidden type="text" name="btnl" value="I'm Feeling Lucky">
-                <input type="submit" value="I'm Feeling Lucky" class="btnsearch">
-            </form>
-        </div>
-    </th>
-    </thead>
-    </table>
+                <tr>
+                    <th>
+                        <label for="tewof">this exact word or phrase:</label>
+                    </th>
+                    <th>
+                        <input type="text" name="as_epq" class="AStxt" id="tewof">
+                    </th>
+                </tr>
+
+                <tr>
+                    <th>
+                        <label for="aotw">any of these words:</label>
+                    </th>
+                    <th>
+                        <input type="text" name="as_oq" class="AStxt" id="aotw">
+                    </th>
+                </tr>
+
+                <tr>
+                    <th>
+                        <label for="notw">none of these words:</label>
+                    </th>
+                    <th>
+                        <input type="text" name="as_eq" class="AStxt" id="notw">
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <td colspan="2">
+
+                    <form action="https://www.google.com/doodles">
+                        <input hidden type="text" name="btnl" value="I'm Feeling Lucky">
+                        <input type="submit" value="Advanced Search" class="btnAS">
+                    </form>
+
+                </td>
+            </tbody>
+
+
+
+        </table>
+    </form>
 </body>
 
 </html>
