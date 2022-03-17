@@ -141,3 +141,10 @@ a:hover {
     margin-bottom: 600px;
     margin-left: 820px;
 }
+
+.logo {
+    display: inline-block;
+    height: 24px;
+    width: 74px;
+    padding: 12px;
+}
