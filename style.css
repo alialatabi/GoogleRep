@@ -148,3 +148,7 @@ a:hover {
     width: 74px;
     padding: 12px;
 }
+
+td {
+    text-align: center;
+}
