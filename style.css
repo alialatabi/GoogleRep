@@ -69,6 +69,13 @@ a:hover {
     height: 100%;
     margin-top: auto;
     padding-top: 30px;
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    top: 95%;
+    right: 41%;
 }
 
 .cd {
@@ -77,8 +84,7 @@ a:hover {
     flex-wrap: wrap
 }
 
-.Scontainer {
-    display: flex;
+.Scont {
     flex-direction: column;
     align-items: center;
     z-index: 3;
@@ -91,25 +97,42 @@ a:hover {
     width: 638px;
 }
 
-.txtsearch {
-    background-color: transparent;
-    border: none;
-    margin: 0;
-    padding: 0;
-    color: #000000;
-    word-wrap: break-word;
-    outline: none;
+.Scontainer {
+    flex: 1;
     display: flex;
-    flex: 100%;
-    -webkit-tap-highlight-color: transparent;
+    padding: 5px 8px 0 14px;
     height: 44px;
+    background: transparent;
+    border: 1px solid #d3d1d1;
+    box-shadow: none;
+    border-radius: 24px;
+}
+
+.txtsearch {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    height: 40px;
     font-size: 16px;
     width: 550px;
+    border: none;
+    outline: none;
+}
+
+.vicon {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: 7px;
+    align-items: stretch;
+    flex-direction: row;
+    height: 30px;
+    width: 30px;
 }
 
 .txtsearch:hover,
 .Scontainer:hover {
     background-color: #e0e3e7;
+    border: none;
 }
 
 .btnsearch {
@@ -188,4 +211,13 @@ th {
     width: 300px;
     margin-top: 10px;
     padding: 1px 8px;
+}
+
+.sicon {
+    height: 28px;
+    width: 28px;
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: 5px;
 }
