@@ -272,3 +272,14 @@ th {
     color: #70757a;
     text-decoration: none;
 }
+
+h1 {
+    margin: 10px 20px;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    color: #d93025;
+}
